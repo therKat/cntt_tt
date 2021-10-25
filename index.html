@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+    <!-- ======== ICON ======= -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ======== CSS ======== -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+    <title>Travel Website</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.png">
+</head>
+<body>
+    <!-- ======== HEADER ======== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Du lịch</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Trang chủ</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Thông tin</a></li>
+                    <li class="nav__item"><a href="#place" class="nav__link">Địa điểm</a></li>
+                    <li class="nav__item"><a href="#subcribe" class="nav__link">Liên hệ</a></li>
+                </ul>
+
+                <i class="bx bx-x nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- ======== MAIN ========== -->
+    <main class="main">
+        <!-- ============= HOME =============== -->
+        <section class="home" id="home">
+            <img src="./assets/img/saigon-ngang1.jpg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Du lịch Việt Nam</span>
+                    <h1 class="home__data-title">Khám Phá <br> Những Nơi <b>Đẹp <br>Nhất</b></h1>
+                    <a href="#place" class="button">Khám phá</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-facebook-square'></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-instagram-alt' ></i>
+                    </a>
+                    <a href="https://www.tripadvisor.com.vn/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-trip-advisor' ></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= ABOUT =============== -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">Về Những  <br> Chuyến Du Lịch</h2>
+                    <p class="about__description">Chuyển tải vẻ đẹp của các danh lam thắng cảnh, nét văn hóa độc đáo và những thành tựu phát triển mọi mặt của nhân loại tới khách hàng. Kết nối, dẫn dắt đem đến cho du khách trải nghiệm thú vị trong từng hành trình đến với những miền đất Việt Nam tươi đẹp và những nền văn minh của các quốc gia trên thế giới.
+                    </p>
+                    <a href="#place" class="button">Chọn một địa điểm</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/danang-doc1.jpg" alt="" class="about__img-one">
+                    </div>
+
+                    <div class="about__img-overlay">
+                        <img src="assets/img/hanoi-doc3.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section">
+            <h2 class="section__title">Những Dịch Vụ<br>Chất Lượng Cao</h2>
+
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data">
+                        <h2 class="experience__number">1+</h2>
+                        <span class="experience__description">Năm <br> Kinh nghiệm</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">20+</h2>
+                        <span class="experience__description">Tour <br>Thành công</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">50+</h2>
+                        <span class="experience__description">Điểm  <br> Du Lịch</span>
+                    </div>
+                </div>
+
+                <div class="experience__img grid">
+                    <div class="experience__overlay">
+                        <iframe  class="experience__video" src="https://www.youtube.com/embed/DIgv-e18OzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== PLACES ====================-->
+        <section class="place section" id="place">
+            <h2 class="section__title">Chuyến Đi</h2>
+
+            <div class="place__container container grid">
+                <!--==================== PLACES CARD 1 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/hanoi-doc1.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class='bx bx-star place__rating-icon'></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Hà Nội</h3>
+                            <span class="place__price">$59</span>
+                        </div>
+                    </div>
+
+                    <a href="#detail"><button class="button button--flex place__button">
+                        <i class='bx bx-right-arrow-alt' ></i>
+                    </button></a>
+                </div>
+
+                <!--==================== PLACES CARD 2 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/saigon-doc1.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class='bx bx-star place__rating-icon'></i>
+                            <span class="place__rating-number">3,7</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Sài Gòn</h3>
+                            <span class="place__price">$349</span>
+                        </div>
+                    </div>
+
+                    <a href="#detail"><button class="button button--flex place__button">
+                        <i class='bx bx-right-arrow-alt' ></i>
+                    </button></a>
+                </div>
+
+                <!--==================== PLACES CARD 3 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/danang-doc2.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class='bx bx-star place__rating-icon'></i>
+                            <span class="place__rating-number">4,9</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Đà Nẵng</h3>
+                            <span class="place__price">$249</span>
+                        </div>
+                    </div>
+
+                    <a href="#detail"><button class="button button--flex place__button">
+                        <i class='bx bx-right-arrow-alt' ></i>
+                    </button></a>
+                </div>
+
+                <!--==================== PLACES CARD 4 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/hoian-doc2.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class='bx bx-star place__rating-icon'></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Hội An</h3>
+                            <span class="place__price">$199</span>
+                        </div>
+                    </div>
+
+                    <a href="#detail"><button class="button button--flex place__button">
+                        <i class='bx bx-right-arrow-alt' ></i>
+                    </button></a>
+                </div>
+
+                <!--==================== PLACES CARD 5 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/mucangchai-doc1.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class='bx bx-star place__rating-icon'></i>
+                            <span class="place__rating-number">4,1</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Mù Cang Chải</h3>
+                            <span class="place__price">$49</span>
+                        </div>
+                    </div>
+
+                    <a href="#detail"><button class="button button--flex place__button">
+                        <i class='bx bx-right-arrow-alt' ></i>
+                    </button></a>
+                </div>
+
+                <!--==================== PLACES CARD 6 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/dalat-doc1.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class='bx bx-star place__rating-icon'></i>
+                            <span class="place__rating-number">4.3</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Đà Lạt</h3>
+                            <span class="place__price">$299</span>
+                        </div>
+                    </div>
+
+                    <a href="#detail"><button class="button button--flex place__button">
+                        <i class='bx bx-right-arrow-alt' ></i>
+                    </button></a>
+                </div>
+            </div>
+        </section>
+        <!-- =================== DETAIL ==================== -->
+        <section class="detail section" id="detail">
+            <h2 class="section__title">Thông Tin Chi Tiết</h2>
+            
+            <div class="detail__container container grid">
+                <!-- ================ HÀ NỘI ================ -->
+                <div class="detail__content">
+                    <img src="./assets/img/hanoi-doc2.jpg" alt="" class="detail__img">
+
+                    <div class="detail__data">
+                        <h3 class="detail__title" >Hà Nội</h3>
+                        <p class="detail__description">Nhắc về Hà Nội, nhiều người sẽ nghĩ về nét xưa cũ của phố cổ và những di tích lịch sử suốt nhiều triều đại phong kiến. Nhưng không hề dừng lại ở đó, Hà Nội còn có nhịp năng động của một thành phố đang phát triển từng ngày. Vẻ đẹp văn hóa, kết hợp với nét trẻ trung, nhộn nhịp đã góp phần tạo nên một Hà Nội đa sắc màu, đủ sức thu hút bất kỳ vị khách phương xa nào.</p>
+                        
+
+                        <a href="https://www.tripadvisor.com.vn/Tourism-g293924-Hanoi-Vacations.html"><button class="button button--flex detail__button">
+                            Giá: 59$
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </button></a>
+                    </div>  
+                </div>
+                
+                <!-- ================ SÀI GÒN =============== -->
+                <div class="detail__content">
+                    <img src="./assets/img/saigon-doc2.jpg" alt="" class="detail__img">
+
+                    <div class="detail__data">
+                        <h3 class="detail__title" >Sài Gòn</h3>
+                        <p class="detail__description">Đến Sài Gòn, bạn sẽ có cơ hội trải nghiệm những “đặc sản” du lịch như: du ngoạn ven sông Sài Gòn bằng du thuyền, phố Tây Bùi Viện không ngủ về đêm, nền ẩm thực đa dạng vừa giao hòa giữa nhiều vùng miền vừa mang bản sắc riêng… Sài Gòn vô vàn những điều thú vị, hẳn không thể chỉ trong vài ngày mà có thể hiểu hết nơi đây.</p>
+                        
+
+                        <a href="https://www.tripadvisor.com.vn/Tourism-g293925-Ho_Chi_Minh_City-Vacations.html"><button class="button button--flex detail__button">
+                            Giá: 349$
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </button></a>
+                    </div>
+                </div>
+               
+                <div class=" more">
+                    <div class="grid">                    
+                        <!-- ================ ĐÀ NẴNG =============== -->
+                        <div class="detail__content">
+                            <img src="./assets/img/danang-doc2.jpg" alt="" class="detail__img">
+
+                            <div class="detail__data">
+                                <h3 class="detail__title" >Đà Nẵng</h3>
+                                <p class="detail__description">Được biết đến với mỹ danh “thành phố đáng sống nhất” Việt Nam, Đà Nẵng luôn thu hút du khách trong và ngoài nước với vẻ sôi động của một thành phố trẻ, kết hợp với nền văn hóa bản địa đặc sắc. Nhờ đó mà các tour du lịch Đà Nẵng luôn là một trong những điểm đến hàng đầu trên bản đồ du lịch Việt Nam.</p>
+                                
+        
+                                <a href="https://www.tripadvisor.com.vn/Tourism-g298085-Da_Nang-Vacations.html"><button class="button button--flex detail__button">
+                                    Giá: 249$
+                                    <i class='bx bx-right-arrow-alt' ></i>
+                                </button></a>
+                            </div>
+                        </div>
+
+                        <!-- ================ HỘI AN =============== -->
+                        <div class="detail__content">
+                            <img src="./assets/img/hoian-doc1.jpg" alt="" class="detail__img">
+
+                            <div class="detail__data">
+                                <h3 class="detail__title" >Hội An</h3>
+                                <p class="detail__description">Phố cổ Hội An luôn xếp hàng đầu trong danh sách những địa điểm du lịch ở Việt Nam bởi nhiều lý do. Đô thị nhỏ này là nơi giao thoa của nền văn hóa Đông – Tây; là sự kết hợp tinh hoa của các nước Việt, Trung, Nhật, châu Âu trong cả ẩm thực, kiến trúc, đến những truyền thống của người dân địa phương, du lịch Hội An luôn được nhiều du khách lựa chọn khi ghé ngang dải đất miền Trung.
+                                </p>
+                                
+        
+                                <a href="https://www.tripadvisor.com.vn/Tourism-g298082-Hoi_An_Quang_Nam_Province-Vacations.html"><button class="button button--flex detail__button">
+                                    Giá: 199$
+                                    <i class='bx bx-right-arrow-alt' ></i>
+                                </button></a>
+                            </div>
+                        </div>
+
+                        <!-- ================ MÙ CANG CHẢI =============== -->
+                        <div class="detail__content">
+                            <img src="./assets/img/mucangchai-doc2.jpg" alt="" class="detail__img">
+
+                            <div class="detail__data">
+                                <h3 class="detail__title" >Mù Cang Chải</h3>
+                                <p class="detail__description">Mù Cang Chải - một điểm đến quen thuộc của dân thích xê dịch, nằm ở phía Tây tỉnh Yên Bái - là một vùng núi trùng điệp với rất nhiều ruộng bậc thang đẹp như tranh vẽ. Tuỳ từng thời điểm trong năm, những ruộng bậc thang trồng lúa có màu khác nhau. Đến đây các bạn sẽ được thấy một khía cạnh khác của cuộc sống.</p>
+                                
+        
+                                <a href="https://www.tripadvisor.com.vn/Tourism-g8146384-Mu_Cang_Chai_Yen_Bai_Province-Vacations.html"><button class="button button--flex detail__button">
+                                    Giá: 49$
+                                    <i class='bx bx-right-arrow-alt' ></i>
+                                </button></a>
+                            </div>
+                        </div>
+
+                        <!-- ================ ĐÀ LẠT =============== -->
+                        <div class="detail__content">
+                            <img src="./assets/img/dalat-doc2.jpg" alt="" class="detail__img">
+
+                            <div class="detail__data">
+                                <h3 class="detail__title" >Đà Lạt</h3>
+                                <p class="detail__description">Đà Lạt chào đón bạn cả 12 tháng, mỗi tháng lại mang một vẻ đẹp khác nhau. Tháng 3, tháng 4 đón bạn với tiết trời trong vắt, hoa anh đào nở rộ đỏ rực bên bờ hồ Xuân Hương. Tháng 8, tháng 9 với những cơn mưa rả rích tiếp nước cho những dòng thác hùng vĩ chảy mạnh mẽ. Tháng 10 trở đi, tiết trời se lạnh, lảng bảng hơi sương và hoa dã quỳ nở vàng rực như nắng.</p>
+                                
+        
+                                <a href="https://www.tripadvisor.com.vn/Tourism-g293922-Da_Lat_Lam_Dong_Province-Vacations.html"><button class="button button--flex detail__button">
+                                    Giá: 299$
+                                    <i class='bx bx-right-arrow-alt' ></i>
+                                </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="button button--flex more__button">
+                    Xem thêm
+                </button>
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section" id="subcribe">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">Đăng Ký <br> Thành Viên</h2>
+                    <p class="subscribe__description">Đăng ký để nhận 30% chiết khấu
+                    </p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Nhập email" class="subscribe__input">
+
+                        <button class="button">
+                            Đăng ký
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SPONSORS ====================-->
+        <section class="sponsor section">
+            <div class="sponsor__container container grid">
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Travel</h3>
+                    <p class="footer__description">Chuyến đi của <br> bạn, 
+                        cùng với những trải nghiệm <br> từ chúng tôi.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class='bx bxl-facebook-square' ></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class='bx bxl-youtube' ></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Giới thiệu</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Về chúng tôi</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Nổi bật</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Hỗ Trợ</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Các câu hỏi thường gặp</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Trung tâm hỗ trợ</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Liên lạc với chúng tôi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169;Công nghệ thông tin & Truyền thông.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Nam Mạnh Dương</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!--========== SCROLL UP ==========-->
+     <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
